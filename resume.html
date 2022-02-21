@@ -1,0 +1,1022 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Maximus Dayton</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+      /*
+! tailwindcss v3.0.13 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: Ubuntu, ui-sans-serif, sans-serif; /* 4 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+Ensure the default browser behavior of the `hidden` attribute.
+*/
+
+[hidden] {
+  display: none;
+}
+  h1, h2, h3, h4, h5, h6 {
+  --tw-text-opacity: 1;
+  color: rgb(124 45 18 / var(--tw-text-opacity));
+}
+
+  h2 {
+  margin-bottom: 1rem;
+  display: inline-block;
+  -moz-column-break-after: avoid;
+       break-after: avoid;
+  border-radius: 0.5rem;
+  border-bottom-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity));
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+  section {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
+  a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+*, ::before, ::after {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.order-1 {
+  order: 1;
+}
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+.m-1 {
+  margin: 0.25rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.inline-block {
+  display: inline-block;
+}
+.inline {
+  display: inline;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.w-2 {
+  width: 0.5rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
+}
+.list-inside {
+  list-style-position: inside;
+}
+.list-disc {
+  list-style-type: disc;
+}
+.break-inside-avoid {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-items-center {
+  justify-items: center;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.bg-orange-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 247 237 / var(--tw-bg-opacity));
+}
+.bg-orange-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+}
+.p-8 {
+  padding: 2rem;
+}
+.p-1 {
+  padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.italic {
+  font-style: italic;
+}
+.text-slate-900 {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+.text-orange-900 {
+  --tw-text-opacity: 1;
+  color: rgb(124 45 18 / var(--tw-text-opacity));
+}
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+.text-orange-700 {
+  --tw-text-opacity: 1;
+  color: rgb(194 65 12 / var(--tw-text-opacity));
+}
+@media print {
+
+  .print\:order-2 {
+    order: 2;
+  }
+
+  .print\:grid {
+    display: grid;
+  }
+
+  .print\:flex-row {
+    flex-direction: row;
+  }
+
+  .print\:justify-between {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 640px) {
+
+  .sm\:order-2 {
+    order: 2;
+  }
+
+  .sm\:grid {
+    display: grid;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+}
+
+    </style>
+
+
+	</head>
+	<body class="bg-orange-50 p-8 text-slate-900 text-sm">
+	<div class="max-w-4xl mx-auto px-2">
+  <div class="mb-2">
+      <div class="flex flex-col sm:flex-row print:flex-row sm:justify-between print:justify-between">
+        <div>
+          <h1 class="text-5xl mb-4">Maximus Dayton</h1>
+          <h2 class="text-xl mb-4">Lead Software Engineer at Sapa / Dragonfly</h2>
+        </div>
+        <div>
+          	<section>
+                <div class="p-1 text-orange-900 flex flex-row">
+                  <span class="sr-only">Location: </span>
+                  <i class="fa fa-map-marker text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                    <span>Salt Lake City, Utah, United States</span>
+                </div>      <div class="p-1 text-orange-900 flex flex-row">
+                  <span class="sr-only">E-mail: </span>
+                  <i class="fa fa-envelope text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                    <span>max.dayton@protonmail.com</span>
+                </div>      <div class="p-1 text-orange-900 flex flex-row">
+                  <span class="sr-only">Phone: </span>
+                  <i class="fa fa-phone text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                    <span>(435)770-1921</span>
+                </div>          <div class="p-1 text-orange-900 flex flex-row">
+                      <span class="sr-only">GitHub: </span>
+                      <i class="fa fa-github text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                        <a href="https://github.com/Dayton-IX"> GitHub <i class="fa fa-external-link text-xs" aria-hidden="true"></i></a>
+                    </div>          <div class="p-1 text-orange-900 flex flex-row">
+                      <span class="sr-only">LinkedIn: </span>
+                      <i class="fa fa-linkedin text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                        <a href="https://www.linkedin.com/in/maximus-dayton-06a58917a/"> LinkedIn <i class="fa fa-external-link text-xs" aria-hidden="true"></i></a>
+                    </div>          <div class="p-1 text-orange-900 flex flex-row">
+                      <span class="sr-only">Twitter: </span>
+                      <i class="fa fa-twitter text-m mr-2 text-orange-500 w-2 inline-flex flex-row items-center justify-center"></i>
+                        <a href="https://twitter.com/DaytonMaximus"> Twitter <i class="fa fa-external-link text-xs" aria-hidden="true"></i></a>
+                    </div>	</section>
+        </div>
+      </div>
+    </div>
+    <div class="sm:grid print:grid grid-cols-4 gap-8">
+      <div class="sm:order-2 print:order-2 col-span-3 mb-4">
+        <section>
+        	<h2>Work</h2>
+            <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Sapa Investment Group / Dragonfly
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Lead Software Engineer
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jan 2021
+                      - Present
+                  </div>
+              </div>
+                <p class="mb-2">I lead a team engineers to build cloud-native progressive web applications for the medical cannabis industry!</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Hired 2 engineers to expand our team.</li>
+                    <li class="mb-1">Lead development of patent-pending digital payment processing platform.</li>
+                    <li class="mb-1">Developed website for product engineering arm, Ideamakers</li>
+                    <li class="mb-1">Developed new website for Dragonfly Processing division.</li>
+                    <li class="mb-1">Lead development of supply chain and sales portal for medical cannabis processing.</li>
+                    <li class="mb-1">Lead development of full end-to-end progressive web application for patients and employees of the Dragonfly Wellness Pharmacy.</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Sapa Investment Group
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Software Engineer
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Nov 2020
+                      - Jan 2021
+                  </div>
+              </div>
+                <p class="mb-2">I joined Sapa as the second engineer hire of the company, I was quickly promoted to lead dev where I expanded and led the new software engineering department.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Worked with team to engineer a prototype ios/android application for restaurant ordering and payments.</li>
+                    <li class="mb-1">Built a project visualization platform with Monday.com API integration.</li>
+                    <li class="mb-1">Promoted to lead engineer after 3 months.</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Dayton Web Development
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Freelance Web Developer
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jan 2019
+                      - Present
+                  </div>
+              </div>
+                <p class="mb-2">I&#x27;ve been doing freelance web projects for small businesses since I was in high school! Now it&#x27;s more of a side hustle.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Created an invoice payment platform for a veteran-owned small business.</li>
+                    <li class="mb-1">Created a promotion website for a small town bakery.</li>
+                    <li class="mb-1">Developed a full stack ordering and invoicing platform for a pork farm.</li>
+                    <li class="mb-1">Created promotional website for storage unit rental company.</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Tricked Out Accessories
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Sales Representative
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Aug 2020
+                      - Nov 2020
+                  </div>
+              </div>
+                <p class="mb-2">I worked as a sales associate / repair technician at a smartphone accessories / repair store.</p>
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Managed store during period where the store lost it&#x27;s manager and was trying to hire a new one.</li>
+                </ul>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Firehouse Pizzeria
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Cook
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Aug 2019
+                      - Aug 2020
+                  </div>
+              </div>
+                <p class="mb-2">I worked as a cook at a local pizzeria, cooking pastas, calzones, pizzas, and more.</p>
+            </div></section>
+        <section>
+        	<h2>Education</h2>
+            <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Sky View High School
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      High School Diploma in Computer Programming
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jan 2015
+                      - Jan 2019
+                  </div>
+              </div>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Code To Success
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Bootcamp in Web Development
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jun 2018
+                      - Aug 2018
+                  </div>
+              </div>
+            </div>    <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Bridgerland Technical College
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Web Development Certificate in Web Development
+                    </p>
+                </div>
+                  <div class="text-sm text-orange-500">
+                    Jan 2018
+                      - Jan 2020
+                  </div>
+              </div>
+            </div></section>
+        <section>
+        	<h2>Awards</h2>
+            <div class="mb-6 break-inside-avoid">
+              <div class="flex flex-row items-start justify-between mb-3">
+                <div>
+                  <h3 class="text-base font-bold">
+                      Employee of the Month
+                  </h3>
+                    <p class="font-bold text-orange-700">
+                      Sapa Investment Group
+                    </p>
+                </div>
+                      <div class="text-sm text-orange-500">
+                        Jan 2021
+                      </div>
+              </div>
+                <p class="mb-2">I was nominated for and won the first ever employee of the month award for Sapa Investment Group.</p>
+            </div></section>
+      </div>
+      <div class="order-1 col-span-1 mb-4">
+        <section>
+        	<h2>Skills</h2>
+            <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Front-End Web Development</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">HTML</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">CSS</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">JavaScript</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">TypeScript</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">React</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Next.js</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Svelte</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Tailwind CSS</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">PostCSS</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Back-End Development</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Node.js</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Express</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Next.js</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">SvelteKit</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Rust</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">C++</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">C#</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">APIs</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">GraphQL</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Rest APIs</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Express</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Node.js</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Axios</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Databases</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">MySQL</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">NoSQL</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">PostgreSQL</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">MongoDB</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Cloud Development</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">AWS (Amplify, DynamoDB, S3, Lambda, API Gateway, Cognito)</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Firebase (Cloud Functions, Cloud Storage, Cloud Firestore)</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Supabase</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Vercel Edge Functions</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Akash Network</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Blockchain Development / Web3</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Ethereum</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Solidity</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Hardhat</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Polygon</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">The Graph</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Alchemy</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">IPFS</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Solana</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Anchor</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">DevOps</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Git</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">GitHub</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Vercel</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Heroku</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">GitHub Pages</span>
+                </div>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Mobile Application Development</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">React Native</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Expo</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Flutter</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Swift</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Objective-C</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Firebase</span>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">AWS Amplify</span>
+                </div>
+            </div></section>
+        <section>
+        	<h2>Languages</h2>
+            <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">English</h3>
+                <div>
+                    <span class="inline-block mr-1 mb-1 py-0.5 px-1 bg-orange-100 rounded text-orange-700">Native Speaker</span>
+                </div>
+            </div></section>
+        <section>
+        	<h2>Interests</h2>
+            <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Skiing</h3>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Rock Climbing</h3>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Hiking</h3>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Drumming</h3>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Skating</h3>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Cryptocurrency</h3>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Open Source Software</h3>
+            </div>    <div class="mb-2 break-inside-avoid">
+                <h3 class="font-sm font-bold mb-2">Gaming</h3>
+            </div></section>
+      </div>
+    </div>
+	</body>
+</html>
