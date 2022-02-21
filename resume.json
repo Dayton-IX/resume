@@ -209,6 +209,34 @@
       ]
     },
     {
+      "name": "Blockchain Development / Web3",
+      "keywords": [
+        "Ethereum",
+        "Solidity",
+        "web3.js",
+        "ethers.js",
+        "Hardhat",
+        "Truffle",
+        "Polygon",
+        "The Graph",
+        "Alchemy",
+        "Infura",
+        "IPFS",
+        "Solana",
+        "Anchor"
+      ]
+    },
+    {
+      "name": "Cloud Development",
+      "keywords": [
+        "AWS (Amplify, DynamoDB, S3, Lambda, API Gateway, Cognito)",
+        "Firebase (Cloud Functions, Cloud Storage, Cloud Firestore)",
+        "Supabase",
+        "Vercel Edge Functions",
+        "Akash Network"
+      ]
+    },
+    {
       "name": "APIs",
       "keywords": [
         "GraphQL",
@@ -225,34 +253,6 @@
         "NoSQL",
         "PostgreSQL",
         "MongoDB"
-      ]
-    },
-    {
-      "name": "Cloud Development",
-      "keywords": [
-        "AWS (Amplify, DynamoDB, S3, Lambda, API Gateway, Cognito)",
-        "Firebase (Cloud Functions, Cloud Storage, Cloud Firestore)",
-        "Supabase",
-        "Vercel Edge Functions",
-        "Akash Network"
-      ]
-    },
-    {
-      "name": "Blockchain Development / Web3",
-      "keywords": [
-        "Ethereum",
-        "Solidity",
-        "web3.js",
-        "ethers.js",
-        "Hardhat",
-        "Truffle",
-        "Polygon",
-        "The Graph",
-        "Alchemy",
-        "Infura",
-        "IPFS",
-        "Solana",
-        "Anchor"
       ]
     },
     {
