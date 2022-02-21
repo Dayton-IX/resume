@@ -65,6 +65,20 @@
       "location": "Salt Lake City, Utah"
     },
     {
+      "name": "HouseIP",
+      "position": "Co-Founder / Lead Software Engineer",
+      "startDate": "2020-06-19",
+      "endDate": "2020-10-15",
+      "highlights": [
+        "Learned React Native to build hybrid mobile application.",
+        "Helped build the company identity and brand.",
+        "Helped develop the business model for the company.",
+        "Lead marketing and sales efforts."
+      ],
+      "summary": "I worked as a Co-Founder / Lead Software Engineer at HouseIP, a small startup company. Together with two other co-founders, we developed a business model, while I was solely responsible for engineering the application.",
+      "location": "Logan, Utah"
+    },
+    {
       "name": "Dayton Web Development",
       "position": "Freelance Web Developer",
       "startDate": "2019-01-01",
@@ -232,6 +246,7 @@
         "Polygon",
         "The Graph",
         "Alchemy",
+        "Infura",
         "IPFS",
         "Solana",
         "Anchor"
@@ -468,7 +483,7 @@
         "Node.js"
       ],
       "startDate": "2020-06-19",
-      "endDate": "2020-12-15",
+      "endDate": "2020-10-15",
       "roles": [
         "Co-Founder",
         "Head Engineer",
