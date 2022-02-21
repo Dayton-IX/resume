@@ -242,7 +242,10 @@
       "keywords": [
         "Ethereum",
         "Solidity",
+        "web3.js",
+        "ethers.js",
         "Hardhat",
+        "Truffle",
         "Polygon",
         "The Graph",
         "Alchemy",
