@@ -212,16 +212,18 @@
       "name": "Blockchain Development / Web3",
       "keywords": [
         "Ethereum",
+        "Polygon",
         "Solidity",
+        "openzeppelin",
         "web3.js",
         "ethers.js",
         "Hardhat",
-        "Truffle",
-        "Polygon",
         "The Graph",
         "Alchemy",
         "Infura",
         "IPFS",
+        "Filebase",
+        "Filecoin",
         "Solana",
         "Anchor"
       ]
@@ -251,8 +253,7 @@
       "keywords": [
         "MySQL",
         "NoSQL",
-        "PostgreSQL",
-        "MongoDB"
+        "PostgreSQL"
       ]
     },
     {
@@ -312,6 +313,38 @@
   ],
   "references": [],
   "projects": [
+    {
+      "name": "Healers",
+      "description": "A decentralized healthcare document storage and sharing application. Built with a team for web3con hackathon.",
+      "highlights": [
+        "Helped fomulate team",
+        "Collaborated with team to plan architecture and design of project",
+        "Responsible for building Smart contracts for storing and retrieving data, as well as control permissions",
+        "Worked with team to develop front-end and contract interaction",
+        "Built project within 1 week"
+      ],
+      "keywords": [
+        "JavaScript",
+        "React",
+        "ethers.js",
+        "Solidity",
+        "Polygon",
+        "Filebase",
+        "Sia",
+        "Node.js",
+        "Heroku"
+      ],
+      "startDate": "2022-02-28",
+      "endDate": "2022-03-06",
+      "url": "",
+      "roles": [
+        "Solidity Engineer",
+        "Front-End Engineer",
+        "Collaborative Designer"
+      ],
+      "entity": "The Healers",
+      "type": "Web3 Dapp"
+    },
     {
       "name": "Dragonfly myWellness",
       "description": "A full stack progressive web application for medical cannabis patients to order products, track their orders, earn and use loyalty rewards, and develop their cannabis profile to better understand what products work best for them.",
